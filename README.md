@@ -39,7 +39,6 @@ and Ruby to request that page and parse the data.
 
 ```ruby
 # irb
-
 doc = Nokogiri::HTML(open('https://foursquare.com/explore?mode=url&near=New%20York&q=coffee%20shops'))
 ```
 
@@ -48,6 +47,7 @@ inspect that source and figure out that the results are all in `<li>`
 elements with a `singleRecommendation` class, and do something like:
 
 ```ruby
+# irb
 doc.css('li.singleRecommendation').each do |recommendation|
   # ...
 end
