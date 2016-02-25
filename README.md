@@ -128,7 +128,7 @@ because it makes it easy to carve up data.
 
 ### Finding And Using APIs
 
-Many websites have APIs that you can consume with your applications. The
+Many websites have APIs that you can communicate with your applications. The
 easiest way to find out if the site you want to use provides an API is
 to Google `sitename api`, or just go to the site and look for a link to
 a "Developers" or "API" section.
@@ -159,3 +159,5 @@ and how cumbersome and brittle it is trying to integrate data with
 presentation, like an HTML page. We've learned what an API is, how it
 differs from an interface meant to be consumed by a browser, and how to
 find out if a site offers an API.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/what-is-an-api-reading'>What Is An API? </a> on Learn.co and start learning to code for free.</p>
